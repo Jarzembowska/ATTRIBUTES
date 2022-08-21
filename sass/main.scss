@@ -1,0 +1,57 @@
+@import "utils/vars";
+// @import "components/logo";
+// @import "components/header";
+// @import "components/slider";
+@import "components/attributes";
+// @import "components/activities";
+// @import "components/team";
+// @import "components/portfolio";
+// @import "components/our_clients";
+// @import "components/footer";
+// @import "components/modal";
+// @import "components/order";
+
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: $mainTextColor;
+}
+
+h2,
+h4,
+ul,
+p {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+// .section {
+//   width: 1600px;
+//   margin: 0 auto;
+//   padding-bottom: 94px;
+//   padding-top: 94px;
+
+// }
+
+// .container {
+//   width: 1200px;
+//   margin: auto;
+// }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (min-width:769px) and(max-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}

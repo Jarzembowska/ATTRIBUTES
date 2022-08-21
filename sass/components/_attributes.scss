@@ -1,0 +1,147 @@
+// mobile
+@media only screen and (max-width:480px) {
+
+  // ul
+  .attributes__items {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 30px;
+  }
+
+  // li
+  .attributes__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .attributes__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 450px;
+
+  }
+
+  .attributes__title {
+    display: flex;
+    justify-content: center;
+  }
+
+  .attributes__desc {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width:768px) {
+
+  .attributes__items {
+    display: none;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .attributes__item {
+    max-width: 354px;
+    flex-basis: calc((100% - 30px)/2);
+
+  }
+
+  .attributes__icon {
+    max-width: 354px;
+  }
+
+  .attributes__desc {
+    max-width: 354px;
+  }
+}
+
+@media only screen and (min-width:768px) and(max-width: 1200px) {
+
+  .attributes__items {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .attributes__item {
+    max-width: 270px;
+    flex-flow: row wrap;
+    // flex-basis: calc((100% - 60px)/3);
+
+  }
+
+  .attributes__icon {
+    max-width: 270px;
+  }
+
+  .attributes__desc {
+    max-width: 270px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .attributes__items {
+    display: none;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .attributes__icon {
+    width: 270px;
+  }
+
+  .attributes__desc {
+    width: 270px;
+  }
+}
+
+.attributes {
+  width: 100%;
+  margin-top: 94px;
+}
+
+.attributes__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0 15px;
+}
+
+.attributes__item {
+  list-style: none;
+}
+
+.attributes__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  background-color: $atributesBackgroundColor;
+  border-radius: 4px;
+}
+
+.attributes__icon-svg {
+  width: 70px;
+  height: 70px;
+}
+
+.attributes__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.attributes__desc {
+  text-align: justify;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $atributesDescColor;
+}
