@@ -2,7 +2,8 @@
 // @import "components/logo";
 // @import "components/header";
 // @import "components/slider";
-@import "components/attributes";
+// @import "components/attributes";
+@import "components/attributes_mobile_first";
 // @import "components/activities";
 // @import "components/team";
 // @import "components/portfolio";
@@ -34,22 +35,19 @@ p {
 
 // }
 
-// .container {
-//   width: 1200px;
-//   margin: auto;
-// }
-
 
 .container {
   margin-left: auto;
   margin-right: auto;
 }
 
-@media only screen and (min-width:769px) and(max-width: 1200px) {
-  .container {
-    max-width: 1200px;
-  }
-}
+
+
+// @media only screen and (min-width:769px) and(max-width: 1200px) {
+// .container {
+//   max-width: 1200px;
+// }
+// }
 
 @media only screen and (min-width: 1200px) {
   .container {
