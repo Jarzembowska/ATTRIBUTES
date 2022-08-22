@@ -62,6 +62,7 @@
     flex-wrap: wrap;
   }
   .attributes__item {
+    max-width: 450px;
     flex-basis: calc((100% - 30px) / 2);
   }
 }
