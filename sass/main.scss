@@ -5,6 +5,7 @@
 // @import "components/attributes";
 @import "components/attributes_mobile_first";
 // @import "components/activities";
+@import "components/activities_mobile_first";
 // @import "components/team";
 // @import "components/portfolio";
 // @import "components/our_clients";
@@ -26,15 +27,17 @@ p {
   margin: 0;
 }
 
+.section {
+  margin: 0 auto;
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
 
-// .section {
-//   width: 1600px;
-//   margin: 0 auto;
-//   padding-bottom: 94px;
-//   padding-top: 94px;
-
-// }
-
+@media only screen and (min-width: 1200px) {
+  .section {
+    max-width: 1600px;
+  }
+}
 
 .container {
   margin-left: auto;
