@@ -142,7 +142,7 @@
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
-  .activities__item--first-image {
+  .activities__item--second-image {
     background-image: url(../images/team-creators-is-working-interface-mobile-phones_740-588.jpg);
   }
 }
@@ -152,7 +152,7 @@
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
-  .activities__item--first-image {
+  .activities__item--third-image {
     background-image: url(../images/creative-artist-web-design-with-working-colour-selection-graphic-tablet_740-588.jpg);
   }
 }
