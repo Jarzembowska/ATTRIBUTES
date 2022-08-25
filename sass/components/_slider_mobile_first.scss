@@ -8,8 +8,10 @@
   max-width: 100%;
   height: 400px;
   background: linear-gradient($sliderGradientBackground,
-      $sliderGradientBackground), url(../images/Slider-mobile-480x400.jpg) no-repeat center;
-  // background-size: cover;
+      <<<<<<< HEAD $sliderGradientBackground), url(../images/Slider-mobile-480x400.jpg) no-repeat center;
+  =======$sliderGradientBackground),
+  url(../images/Slider-mobile-480-400.jpg) no-repeat center;
+  >>>>>>>f9e52b3d479cdacbb37f38ce96534150d255d3ad // background-size: cover;
 }
 
 @media screen and(min-device-pixel-ratio:2),
@@ -17,8 +19,10 @@ screen and (min-resolution:192dpi),
 screen and (min-resolution: 2dppx) {
   .slider {
     background: linear-gradient($sliderGradientBackground,
-        $sliderGradientBackground), url(../images/Slider-mobile-960-800.jpg) no-repeat center;
-    // background-size: cover;
+        <<<<<<< HEAD $sliderGradientBackground), url(../images/Slider-mobile-960-800.jpg) no-repeat center;
+    =======$sliderGradientBackground),
+    url(./images/Slider_mobile-960x800.jpg) no-repeat center;
+    >>>>>>>f9e52b3d479cdacbb37f38ce96534150d255d3ad // background-size: cover;
   }
 }
 
@@ -80,8 +84,10 @@ screen and (min-resolution: 2dppx) {
 @media only screen and (min-width: 481px) and (max-width: 767px) {
   .slider {
     background: linear-gradient($sliderGradientBackground,
-        $sliderGradientBackground), url(../images/Slider-mobile-768-400.jpg) no-repeat center;
-    background-size: cover;
+        <<<<<<< HEAD $sliderGradientBackground), url(../images/Slider-mobile-768-400.jpg) no-repeat center;
+    =======$sliderGradientBackground),
+    url(./images/Slider-mobile-768-400.jpg) no-repeat center;
+    >>>>>>>f9e52b3d479cdacbb37f38ce96534150d255d3ad background-size: cover;
   }
 
   @media screen and(min-device-pixel-ratio:2),
@@ -89,8 +95,10 @@ screen and (min-resolution: 2dppx) {
   screen and (min-resolution: 2dppx) {
     .slider {
       background: linear-gradient($sliderGradientBackground,
-          $sliderGradientBackground), url(../images/Slider-mobile-1536-800.jpg) no-repeat center;
-      background-size: cover;
+          <<<<<<< HEAD $sliderGradientBackground), url(../images/Slider-mobile-1536-800.jpg) no-repeat center;
+      =======$sliderGradientBackground),
+      url(./images/Slider-mobile-1536-800.jpg) no-repeat center;
+      >>>>>>>f9e52b3d479cdacbb37f38ce96534150d255d3ad background-size: cover;
     }
   }
 }
@@ -98,8 +106,10 @@ screen and (min-resolution: 2dppx) {
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .slider {
     background: linear-gradient($sliderGradientBackground,
-        $sliderGradientBackground), url(../images/Slider-mobile-768-400.jpg) no-repeat center;
-    background-size: cover;
+        <<<<<<< HEAD $sliderGradientBackground), url(../images/Slider-mobile-768-400.jpg) no-repeat center;
+    =======$sliderGradientBackground),
+    url(./images/Slider_mobile-768x400.jpg) no-repeat center;
+    >>>>>>>f9e52b3d479cdacbb37f38ce96534150d255d3ad background-size: cover;
   }
 
   @media screen and(min-device-pixel-ratio:2),
@@ -107,8 +117,10 @@ screen and (min-resolution: 2dppx) {
   screen and (min-resolution: 2dppx) {
     .slider {
       background: linear-gradient($sliderGradientBackground,
-          $sliderGradientBackground), url(../images/Slider-mobile-1536-800.jpg) no-repeat center;
-      background-size: cover;
+          <<<<<<< HEAD $sliderGradientBackground), url(../images/Slider-mobile-1536-800.jpg) no-repeat center;
+      =======$sliderGradientBackground),
+      url(./images/Slider_mobile-1536x800.jpg) no-repeat center;
+      >>>>>>>f9e52b3d479cdacbb37f38ce96534150d255d3ad background-size: cover;
     }
   }
 }
@@ -120,8 +132,10 @@ screen and (min-resolution: 2dppx) {
     height: 600px;
     margin: 0 auto;
     background: linear-gradient($sliderGradientBackground,
-        $sliderGradientBackground), url(../images/Slider-Header-1600-600.jpg) no-repeat center;
-    background-size: cover;
+        <<<<<<< HEAD $sliderGradientBackground), url(../images/Slider-Header-1600-600.jpg) no-repeat center;
+    =======$sliderGradientBackground),
+    url(./images/Slider-Header_1600-600.jpg) no-repeat center;
+    >>>>>>>f9e52b3d479cdacbb37f38ce96534150d255d3ad background-size: cover;
   }
 
   @media screen and(min-device-pixel-ratio:2),
@@ -129,8 +143,10 @@ screen and (min-resolution: 2dppx) {
   screen and (min-resolution: 2dppx) {
     .slider {
       background: linear-gradient($sliderGradientBackground,
-          $sliderGradientBackground), url(../images/Slider-Header-3200-1200.jpg) no-repeat center;
-      background-size: cover;
+          <<<<<<< HEAD $sliderGradientBackground), url(../images/Slider-Header-3200-1200.jpg) no-repeat center;
+      =======$sliderGradientBackground),
+      url(./images/Slider-Header_3200x1200.jpg) no-repeat center;
+      >>>>>>>f9e52b3d479cdacbb37f38ce96534150d255d3ad background-size: cover;
     }
   }
 
