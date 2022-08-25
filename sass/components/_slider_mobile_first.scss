@@ -9,7 +9,7 @@
   height: 400px;
   background: linear-gradient($sliderGradientBackground,
       $sliderGradientBackground), url(../images/Slider-mobile-480-400.jpg) no-repeat center;
-  // background-size: cover;
+  background-size: cover;
 }
 
 @media screen and(min-device-pixel-ratio:2),
@@ -18,7 +18,7 @@ screen and (min-resolution: 2dppx) {
   .slider {
     background: linear-gradient($sliderGradientBackground,
         $sliderGradientBackground), url(../images/Slider-mobile-960-800.jpg) no-repeat center;
-    // background-size: cover;
+    background-size: cover;
   }
 }
 
@@ -81,7 +81,7 @@ screen and (min-resolution: 2dppx) {
   .slider {
     background: linear-gradient($sliderGradientBackground,
         $sliderGradientBackground), url(../images/Slider-mobile-768-400.jpg) no-repeat center;
-
+    background-size: cover;
   }
 
   @media screen and(min-device-pixel-ratio:2),
@@ -90,7 +90,7 @@ screen and (min-resolution: 2dppx) {
     .slider {
       background: linear-gradient($sliderGradientBackground,
           $sliderGradientBackground), url(../images/Slider-mobile-1536-800.jpg) no-repeat center;
-
+      background-size: cover;
     }
   }
 }
@@ -99,7 +99,7 @@ screen and (min-resolution: 2dppx) {
   .slider {
     background: linear-gradient($sliderGradientBackground,
         $sliderGradientBackground), url(../images/Slider-mobile-768-400.jpg) no-repeat center;
-
+    background-size: cover;
   }
 
   @media screen and(min-device-pixel-ratio:2),
@@ -108,7 +108,7 @@ screen and (min-resolution: 2dppx) {
     .slider {
       background: linear-gradient($sliderGradientBackground,
           $sliderGradientBackground), url(../images/Slider-mobile-1536-800.jpg) no-repeat center;
-
+      background-size: cover;
     }
   }
 }
@@ -121,7 +121,7 @@ screen and (min-resolution: 2dppx) {
     margin: 0 auto;
     background: linear-gradient($sliderGradientBackground,
         $sliderGradientBackground), url(../images/Slider-Header-1600-600.jpg) no-repeat center;
-
+    background-size: cover;
   }
 
   @media screen and(min-device-pixel-ratio:2),
@@ -130,7 +130,7 @@ screen and (min-resolution: 2dppx) {
     .slider {
       background: linear-gradient($sliderGradientBackground,
           $sliderGradientBackground), url(../images/Slider-Header-3200-1200.jpg) no-repeat center;
-
+      background-size: cover;
     }
   }
 
