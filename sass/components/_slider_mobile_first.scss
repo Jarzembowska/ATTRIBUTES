@@ -9,7 +9,7 @@
   height: 400px;
   background: linear-gradient($sliderGradientBackground,
       $sliderGradientBackground), url(../images/Slider_mobile-480x400.jpg) no-repeat center;
-  background-size: cover;
+  // background-size: cover;
 }
 
 @media screen and(min-device-pixel-ratio:2),
@@ -18,7 +18,7 @@ screen and (min-resolution: 2dppx) {
   .slider {
     background: linear-gradient($sliderGradientBackground,
         $sliderGradientBackground), url(../images/Slider_mobile-960x800.jpg) no-repeat center;
-    background-size: cover;
+    // background-size: cover;
   }
 }
 
@@ -44,7 +44,7 @@ screen and (min-resolution: 2dppx) {
   color: $sliderTitleColor;
   font-weight: 900;
   font-size: 26px;
-  line-height: 1.61;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
