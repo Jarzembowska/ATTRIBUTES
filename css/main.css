@@ -824,15 +824,8 @@
 }
 
 .order__item {
-  position: relative;
   display: flex;
   flex-direction: column;
-}
-
-.order__icon-svg {
-  position: absolute;
-  left: 12px;
-  bottom: 11px;
 }
 
 .order__input {
@@ -852,7 +845,14 @@
   border-color: #2196f3;
 }
 
+.order__icon-svg {
+  position: absolute;
+  left: 12px;
+  bottom: 11px;
+}
+
 .order__label {
+  position: relative;
   display: block;
   font-size: 12px;
   line-height: 1.17;
