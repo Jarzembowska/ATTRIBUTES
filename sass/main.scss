@@ -1,21 +1,19 @@
 @import "utils/vars";
 // @import "components/logo";
 // @import "components/header";
-// @import "components/slider";
-@import "components/slider_mobile_first";
-// @import "components/attributes";
-@import "components/attributes_mobile_first";
-// @import "components/activities";
-@import "components/activities_mobile_first";
-// @import "components/our_clients";
-@import "components/our_clients_mobile_first";
-//  @import "components/team";
-@import "components/team_mobile_first";
 // @import "components/portfolio";
-
 // @import "components/footer";
-@import "components/modal";
-@import "components/order";
+
+@import "components/slider_mobile_first";
+@import "components/attributes_mobile_first";
+@import "components/activities_mobile_first";
+@import "components/our_clients_mobile_first";
+@import "components/team_mobile_first";
+@import "components/modal_mobile_first";
+@import "components/order_mobile_first";
+
+
+
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: $mainTextColor;
